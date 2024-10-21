@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #032B44; /* Azul marino */
+    color: #87CEEB; /* Celeste */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav ul{
+    gap: 90px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+section {
+    background-color: #fff; /* Blanco perla */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadrados {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.boton{
+    width: 150px;
+    background-image: linear-gradient(to bottom, #87CEEB 50%, #4682B4 50%);
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-position 0.3s ease-in-out;
+  }
+  
+.boton:hover {
+    background-position: 0% 0%;
+  }
+
+.cuadrado {
+    background-color: #032B44; /* Azul marino */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Pfoto{
+    width: 100%;
+    height: 500px;
+}
+
+.containerT{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+
+.testimonial {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .testimonial h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .testimonial .author {
+    text-align: right;
+    font-style: italic;
+  }
+
+  /* Estilos generales del footer */
+footer {
+    background-color: #d2eff8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 150px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icon {
+    margin: 0 5px;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #c26e6e;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+span{
+    color: #4682B4;
+}
+
+.lineado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.futer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.color{
+    color: #4682B4;
+}
